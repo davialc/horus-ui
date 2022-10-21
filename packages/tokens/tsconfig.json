@@ -1,0 +1,4 @@
+{
+	"extends": "@horus/ts-config/base.json",
+	"include": ["src"]
+}
