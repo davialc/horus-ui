@@ -1,0 +1,16 @@
+import { AvatarContainer, AvatarImage, AvatarPlaceholder } from './styles';
+import { User } from 'phosphor-react';
+import { ComponentProps } from 'react';
+
+export interface AvatarProps extends ComponentProps<typeof AvatarImage> {}
+
+export const Avatar = (props: AvatarProps) => {
+	return (
+		<AvatarContainer>
+			<AvatarImage {...props} />
+			<AvatarPlaceholder delayMs={600}>
+				<User />
+			</AvatarPlaceholder>
+		</AvatarContainer>
+	);
+};
