@@ -17,12 +17,12 @@ jobs:
         with:
           node-version: 16
 
-      - run: npm ci --legacy-peer-deps
+      - run: yarn install --frozen-lockfile
 
-      - run: npm run build
+      - run: yarn build
 
       - name: Deploy Storybook
         working-directory: ./packages/docs
-        run: npm run deploy -- --ci --existing-output-dir=storybook-static
+        run: yarn deploy -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
