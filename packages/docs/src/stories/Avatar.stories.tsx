@@ -8,6 +8,13 @@ export default {
 		src: 'https://github.com/davialc.png',
 		alt: 'Davi Alcântara',
 	},
+	argTypes: {
+		src: {
+			control: {
+				type: 'text',
+			},
+		},
+	},
 } as Meta<AvatarProps>;
 
 export const Primary: StoryObj<AvatarProps> = {};

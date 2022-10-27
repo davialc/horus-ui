@@ -6,6 +6,15 @@ export default {
 	component: Heading,
 	args: {
 		children: 'Heading example',
+		variant: 'md',
+	},
+	argTypes: {
+		variant: {
+			options: ['sm', 'md', 'lg', 'xl', '2xl', '4xl', '5xl', '6xl'],
+			control: {
+				type: 'inline-radio',
+			},
+		},
 	},
 } as Meta<HeadingProps>;
 
