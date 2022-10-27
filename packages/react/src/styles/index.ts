@@ -7,7 +7,7 @@ import {
 	lineHeights,
 	radii,
 	space,
-} from '@horus/tokens';
+} from '@horus-finance/tokens';
 
 export const {
 	styled,

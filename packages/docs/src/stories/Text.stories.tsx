@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@horus/react';
+import { Text, TextProps } from '@horus-finance/react';
 import { StoryObj, Meta } from '@storybook/react';
 
 export default {

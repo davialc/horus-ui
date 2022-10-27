@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps } from '@horus/react';
+import { Avatar, AvatarProps } from '@horus-finance/react';
 import { StoryObj, Meta } from '@storybook/react';
 
 export default {

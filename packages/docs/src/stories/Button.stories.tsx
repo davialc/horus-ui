@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@horus/react';
+import { Button, ButtonProps } from '@horus-finance/react';
 import { StoryObj, Meta } from '@storybook/react';
 import React from 'react';
 import { Gear } from 'phosphor-react';

@@ -1,4 +1,4 @@
-import { Box, MultiStep, MultiStepProps, Text } from '@horus/react';
+import { Box, MultiStep, MultiStepProps, Text } from '@horus-finance/react';
 import { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 

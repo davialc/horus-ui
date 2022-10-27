@@ -1,6 +1,6 @@
 {
-	"name": "@horus/ts-config",
-	"version": "1.0.0",
+	"name": "@horus-finance/ts-config",
+	"version": "3.0.0",
 	"license": "MIT",
 	"private": true
 }

@@ -1,4 +1,4 @@
-import { colors } from '@horus/tokens';
+import { colors } from '@horus-finance/tokens';
 import React from 'react';
 
 import { getContrast } from 'polished';

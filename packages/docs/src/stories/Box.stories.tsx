@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text } from '@horus/react';
+import { Box, BoxProps, Text } from '@horus-finance/react';
 import { StoryObj, Meta } from '@storybook/react';
 import React from 'react';
 

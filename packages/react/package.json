@@ -1,6 +1,6 @@
 {
-	"name": "@horus/react",
-	"version": "1.0.0",
+	"name": "@horus-finance/react",
+	"version": "3.0.0",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
@@ -10,8 +10,8 @@
 		"dev": "tsup src/index.tsx --format esm,cjs --dts --watch --external react"
 	},
 	"devDependencies": {
-		"@horus/tokens": "*",
-		"@horus/ts-config": "*",
+		"@horus-finance/tokens": "*",
+		"@horus-finance/ts-config": "*",
 		"@types/react": "^18.0.21",
 		"@types/react-dom": "^18.0.6",
 		"react": "^18.2.0",

@@ -1,4 +1,4 @@
 {
-	"extends": "@horus/ts-config/base.json",
+	"extends": "@horus-finance/ts-config/base.json",
 	"include": ["src"]
 }

@@ -1,5 +1,5 @@
 {
-	"name": "@horus/docs",
+	"name": "@horus-finance/docs",
 	"version": "1.0.0",
 	"main": "index.js",
 	"license": "MIT",
@@ -18,8 +18,8 @@
 		"vite": "^3.1.8"
 	},
 	"dependencies": {
-		"@horus/react": "*",
-		"@horus/tokens": "*",
+		"@horus-finance/react": "*",
+		"@horus-finance/tokens": "*",
 		"@storybook/addon-a11y": "^6.5.13",
 		"@storybook/addon-docs": "^6.5.12",
 		"phosphor-react": "^1.4.1",

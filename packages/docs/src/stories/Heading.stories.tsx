@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from '@horus/react';
+import { Heading, HeadingProps } from '@horus-finance/react';
 import { StoryObj, Meta } from '@storybook/react';
 
 export default {
