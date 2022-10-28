@@ -20,6 +20,7 @@ export const NavigationButton = styled(Toolbar.Button, {
 	boxShadow: '1px 1px 1px rgba(175, 175, 175, 0.25)',
 	borderRadius: '$md',
 	display: 'flex',
+	alignItems: 'center',
 	gap: '$3',
 	minWidth: 230,
 
