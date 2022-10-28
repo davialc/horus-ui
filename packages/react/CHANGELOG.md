@@ -1,5 +1,11 @@
 # @horus-finance/react
 
+## 4.0.0
+
+### Major Changes
+
+- Finished all components first version
+
 ## 3.0.0
 
 ### Major Changes
