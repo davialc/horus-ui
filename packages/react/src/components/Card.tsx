@@ -14,6 +14,7 @@ const CardContainer = styled('div', {
 	boxShadow: '0 0 0 2px #EEEEEE',
 	borderRadius: '$md',
 	width: 220,
+	height: 'fit-content',
 	boxSizing: 'border-box',
 	position: 'relative',
 	overflow: 'hidden',
@@ -48,7 +49,7 @@ const Amount = styled('span', {
 	marginTop: '$3',
 });
 
-export const Card = ({ amount, label, colorType }: CardProps) => {
+export const Card = ({ amount, label, colorType, ...props }: CardProps) => {
 	const colorValue =
 		colorType === 'red'
 			? colors.red500
@@ -56,7 +57,7 @@ export const Card = ({ amount, label, colorType }: CardProps) => {
 			? colors.blue300
 			: colors.green500;
 	return (
-		<CardContainer css={{ '--color-type': colorValue }}>
+		<CardContainer css={{ '--color-type': colorValue }} {...props}>
 			<Label>{label}</Label>
 			<Amount>{currencyConvert(amount)}</Amount>
 		</CardContainer>

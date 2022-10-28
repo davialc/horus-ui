@@ -18,7 +18,10 @@ const SelectTriggerContainer = styled(SelectPrimitive.Trigger, {
 	fontWeight: '$medium',
 	border: '2px solid $gray300',
 	display: 'flex',
+	alignItems: 'center',
+	justifyContent: 'space-between',
 	gap: 8,
+	height: 'fit-content',
 	cursor: 'pointer',
 
 	'&:focus': {
@@ -44,9 +47,13 @@ export interface SelectTriggerProps
 	prefix?: string;
 }
 
-export const SelectTrigger = ({ prefix, children }: SelectTriggerProps) => {
+export const SelectTrigger = ({
+	prefix,
+	children,
+	...props
+}: SelectTriggerProps) => {
 	return (
-		<SelectTriggerContainer>
+		<SelectTriggerContainer {...props}>
 			{!!prefix && <Prefix>{prefix}</Prefix>}
 			{children}
 			<CaretDown weight="bold" />
