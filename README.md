@@ -1,7 +1,7 @@
 ![](.github/Horus-UI.jpg)
 # Horus UI - Horus Finance Design System
 
-## A entire design system built in 24 hours to win a Hackathon.
+## An entire design system built in 24 hours to win a Hackathon.
 
 **Horus-UI core**
 
