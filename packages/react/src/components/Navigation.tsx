@@ -33,6 +33,11 @@ export const NavigationButton = styled(Toolbar.Button, {
 		color: '$blue300',
 	},
 
+	'&:[data-active="true"]': {
+		backgroundColor: '$blue100',
+		color: '$blue300',
+	},
+
 	'& + button': {
 		marginTop: '$2',
 	},

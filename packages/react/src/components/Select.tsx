@@ -72,6 +72,7 @@ const StyledContent = styled(SelectPrimitive.Content, {
 	backgroundColor: '$gray150',
 	border: '2px solid $gray300',
 	boxSizing: 'border-box',
+	zIndex: 999,
 });
 
 export const SelectViewport = styled(SelectPrimitive.Viewport, {

@@ -42,7 +42,7 @@ const Track = styled(Slider.Track, {
 export interface ProgressProps
 	extends ComponentProps<typeof ProgressContainer> {}
 
-export const Progress = ({ ...props }) => {
+export const Progress = ({ ...props }: ProgressProps) => {
 	return (
 		<ProgressContainer max={100} orientation="horizontal" disabled {...props}>
 			<Track>
