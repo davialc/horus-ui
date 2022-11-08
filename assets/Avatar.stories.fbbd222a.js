@@ -1,0 +1,2 @@
+import{A as t}from"./index.4d59a210.js";import"./jsx-runtime.00a9b341.js";import"./iframe.24a906e3.js";import"./index.59612187.js";import"./index.ccc8f0ef.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/davialc.png",alt:"Davi Alc\xE2ntara"},argTypes:{src:{control:{type:"text"}}}},e={},p={args:{src:void 0}},l=["Primary","WithPlaceholder"];export{e as Primary,p as WithPlaceholder,l as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.fbbd222a.js.map

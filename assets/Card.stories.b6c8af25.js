@@ -1,0 +1,2 @@
+import{C as r}from"./index.4d59a210.js";import"./jsx-runtime.00a9b341.js";import"./iframe.24a906e3.js";import"./index.59612187.js";import"./index.ccc8f0ef.js";const p={title:"Data display/Card",component:r,args:{label:"Saldo",amount:253,colorType:"green"},argTypes:{colorType:{options:["red","green","blue"],control:{type:"inline-radio"}}}},n={},s=["Primary"];export{n as Primary,s as __namedExportsOrder,p as default};
+//# sourceMappingURL=Card.stories.b6c8af25.js.map
